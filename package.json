@@ -8,11 +8,19 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
+    "dev": "npm-run-all --parallel dev:*",
+    "dev:gatsby": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "lint": "eslint .",
+    "format": "prettier --write \"**/*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|graphql|md|mdx)\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
@@ -31,5 +39,13 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-kentcdodds": "^19.2.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^11.2.6",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.4.1"
   }
 }
