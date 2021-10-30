@@ -9,10 +9,10 @@ export default function Footer() {
       id="contact"
       className="w-full h-screen flex flex-col justify-between"
     >
-      <h4 className="flex flex-col pt-24 text-7xl font-semibold uppercase">
-        <span className="leading-normal">Let&apos;s</span>
-        <span className="self-end">Work</span>
-        <span className="self-center tracking-widest">Together!</span>
+      <h4 className="flex flex-col pt-24 text-15 font-semibold uppercase">
+        <span className="leading-snug">Let&apos;s</span>
+        <span className="self-end leading-none">Work</span>
+        <span className="self-center leading-none">Together!</span>
         <span className="self-center leading-loose">ツ</span>
       </h4>
       <div className="flex flex-col pb-2">
@@ -38,7 +38,7 @@ export default function Footer() {
             </ul>
           </section>
           <section className="w-1/2">
-            <h5 className="text-3xl font-extrabold uppercase  leading-loose">
+            <h5 className="text-3xl font-extrabold uppercase leading-loose">
               Contact
             </h5>
             <ul className="text-2xl font-semibold text-red-600">
