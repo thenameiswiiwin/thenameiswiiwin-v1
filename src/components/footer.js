@@ -5,14 +5,17 @@ export default function Footer() {
   const year = new Date().getFullYear()
 
   return (
-    <footer className="w-full h-full flex flex-col justify-between">
-      <h4 className="flex flex-col pt-8 text-7xl font-semibold uppercase">
+    <footer
+      id="contact"
+      className="w-full h-screen flex flex-col justify-between"
+    >
+      <h4 className="flex flex-col pt-24 text-7xl font-semibold uppercase">
         <span className="leading-normal">Let&apos;s</span>
         <span className="self-end">Work</span>
         <span className="self-center tracking-widest">Together!</span>
         <span className="self-center leading-loose">ツ</span>
       </h4>
-      <div className="flex flex-col">
+      <div className="flex flex-col pb-2">
         <div className="flex">
           <section className="w-1/2">
             <h5 className="text-3xl font-extrabold uppercase leading-loose">
@@ -45,7 +48,7 @@ export default function Footer() {
             </ul>
           </section>
         </div>
-        <section className="pt-4 pb-2 text-4xl font-extrabold text-right border-t border-solid border-black">
+        <section className="text-8 font-extrabold text-right border-t border-solid border-black">
           <h5>© {year} Huy Nguyen</h5>
         </section>
       </div>

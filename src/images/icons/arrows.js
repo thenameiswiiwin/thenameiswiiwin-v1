@@ -1,9 +1,9 @@
-import React from 'core-js/library/fn/reflect/es7/metadata'
+import React from 'react'
 
 export const ArrowDown = () => (
   <svg
-    width="68"
-    height="68"
+    width="50"
+    height="50"
     viewBox="0 0 68 68"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"

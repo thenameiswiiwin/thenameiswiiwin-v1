@@ -12,6 +12,10 @@ module.exports = {
       fontFamily: {
         sans: ['HKGrotesk', ...defaultTheme.fontFamily.sans],
       },
+      fontSize: {
+        8: '8.5vw',
+        15: '15.3vw',
+      },
     },
   },
   variants: {
