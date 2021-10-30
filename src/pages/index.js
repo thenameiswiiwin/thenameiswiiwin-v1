@@ -3,10 +3,12 @@ import Layout from '../components/layout'
 
 export default function Index() {
   return (
-    <Layout>
-      <main>
-        <h1>Home Page Content</h1>
-      </main>
-    </Layout>
+    <div className="px-8 bg-primary">
+      <Layout>
+        <main className="w-full">
+          <h1>Home Page Content</h1>
+        </main>
+      </Layout>
+    </div>
   )
 }

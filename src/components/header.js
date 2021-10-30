@@ -4,7 +4,7 @@ import {LogoLight} from '../images/logo/logo.js'
 
 export default function Header() {
   return (
-    <header className="w-full flex items-end text-2xl font-bold border-b border-solid border-black">
+    <header className="w-full flex items-end text-2xl font-semibold border-b border-solid border-black">
       <Link to="/" className="w-1/4">
         <LogoLight />
       </Link>
